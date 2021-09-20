@@ -2,7 +2,7 @@ import fire
 import requests
 
 API_HOST = "http://localhost:8000"
-RESOURCE_URI = "things"
+RESOURCE_URI = "cookie_stand"
 USERNAME = "admin"
 PASSWORD = "admin"
 
@@ -22,9 +22,7 @@ class ApiTester:
 
         token_url = f"{self.host}/api/token/"
 
-        response = requests.post(
-            token_url, json={"username": USERNAME, "password": PASSWORD}
-        )
+        response = requests.post(token_url, json={"username": USERNAME, "password": PASSWORD})
 
         data = response.json()
 
