@@ -42,3 +42,7 @@ average_cookies_per_sale = models.FloatField(default=0)
 ### Site Deployment Requirements
 
 - Deploy Docker container to AWS or Heroku
+
+---
+
+### My Notes
