@@ -46,3 +46,14 @@ average_cookies_per_sale = models.FloatField(default=0)
 ---
 
 ### My Notes
+
+- sudo yum install git
+- clone repo (Be sure to select HTTPS)
+- sudo yum install -y docker
+- sudo usermod -a -G docker ec2-user
+- sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+- sudo chmod +x /usr/local/bin/docker-compose
+- sudo service docker start
+- sudo chkconfig docker on
+- sudo rm /etc/localtime
+- sudo docker swarm init
