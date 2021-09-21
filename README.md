@@ -6,8 +6,8 @@
 
 Link to Api:
 
-- 18.117.79.115:8000/admin
-- 18.117.79.115:8000/api/v1/cookie_stand
+- [18.117.79.115:8000/admin](18.117.79.115:8000/admin)
+- [18.117.79.115:8000/api/v1/cookie_stand](18.117.79.115:8000/api/v1/cookie_stand)
 
 ## Overview
 
