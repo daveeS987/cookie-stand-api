@@ -54,6 +54,7 @@ average_cookies_per_sale = models.FloatField(default=0)
 
 ### My Notes
 
+- sudo yum update
 - sudo yum install git
 - clone repo (Be sure to select HTTPS)
 - sudo yum install -y docker
@@ -64,3 +65,10 @@ average_cookies_per_sale = models.FloatField(default=0)
 - sudo chkconfig docker on
 - sudo rm /etc/localtime
 - sudo docker swarm init
+- sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+- sudo reboot
+- Add missing .env
+- Update allowed_hosts with EC2 IP
+- Change Debug to False if not already done.
+
+Test the Public IP on port 8000
