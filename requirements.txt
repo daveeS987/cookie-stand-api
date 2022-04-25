@@ -3,7 +3,7 @@ certifi==2021.5.30; python_version >= "2.7" and python_full_version < "3.0.0" or
 charset-normalizer==2.0.6; python_full_version >= "3.6.0" and python_version >= "3"
 django-cors-headers==3.8.0; python_version >= "3.6"
 django-environ==0.7.0; python_version >= "3.4" and python_version < "4"
-django==3.2.7; python_version >= "3.6"
+django==3.2.13; python_version >= "3.6"
 djangorestframework-simplejwt==4.8.0; python_version >= "3.7"
 djangorestframework==3.12.4; python_version >= "3.5"
 fire==0.4.0
